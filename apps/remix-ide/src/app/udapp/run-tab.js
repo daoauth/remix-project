@@ -128,7 +128,7 @@ export class RunTab extends ViewPlugin {
     })
 
     await this.call('blockchain', 'addProvider', {
-      name: 'Wallet Connect',
+      name: 'WalletConnect',
       provider: {
         async sendAsync (payload, callback) {
           try {
